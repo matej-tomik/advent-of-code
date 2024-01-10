@@ -1,3 +1,5 @@
+
+
 def gere_ratio(position, line_set):
     tmp = (line_set[0][position - 1:position + 2] + '.' + line_set[1][position - 1] + '.' + line_set[1][position + 1]
            + '.' + line_set[2][position - 1:position + 2])
