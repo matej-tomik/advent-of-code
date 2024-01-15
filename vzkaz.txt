@@ -1,0 +1,4 @@
+pokracoval sem ve dnech jkak sme se domluvili od 15 tak sem skipnul 16 a 17 prisli mi uplne na stejno a jako posledni
+ulohy a nebyl sem schopnej vymyslet nic lepsiho jak brut force metodu cetl sem si pak ulohy dal a popravde uz sem je
+nezvladal jak casovje tak nartocnosti nebyl sem si schopnej predstavit postup jak mam zacit a cim pokracovat zacal sem s
+euler problemama akorat ne na freecodecampu bo je tam musis psat v javascriptu a to nechci
