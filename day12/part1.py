@@ -1,11 +1,6 @@
 from itertools import product
 import re
 
-f = open('data.txt').read().strip()
-springs = [x.split() for x in f.strip().split('\n')]
-springs = [[x[0], [int(y) for y in x[1].split(',')]] for x in springs]
-
-
 
 def count_permutations(symbols):
     results = set()
@@ -26,7 +21,8 @@ def count_permutations(symbols):
 
     return len(results)
 
-
+f = open('data.txt').read().strip()
+springs = [x.split() for x in f.strip().split('\n')]
+springs = [[x[0], [int(y) for y in x[1].split(',')]] for x in springs]
 total = [count_permutations([s]) for s in springs]
-
 print(sum(total))
