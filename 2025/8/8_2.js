@@ -32,18 +32,6 @@ let connections = 0;
 for (let t = 0; t < D.length; t++) {
   const [_d, i, j] = D[t];
 
-  if (t === 1000) {
-    const SZ = new Map();
-
-    for (let x = 0; x < data.length; x++) {
-      const root = find(x);
-      SZ.set(root, (SZ.get(root) || 0) + 1);
-    }
-
-    const S = Array.from(SZ.values()).sort((a, b) => a - b);
-    console.log(S[S.length - 1] * S[S.length - 2] * S[S.length - 3]);
-  }
-
   if (find(i) !== find(j)) {
     connections++;
 
